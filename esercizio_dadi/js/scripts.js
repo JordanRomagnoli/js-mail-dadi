@@ -13,15 +13,12 @@ startRoll.addEventListener('click' , function() {
 
     if(numberPlayer1 == numberPlayer2){
         winner.innerHTML = ('Pareggio');
-
         
     }else if (numberPlayer1 > numberPlayer2){
         winner.innerHTML = ('Player 1 ha vinto !');
 
-
     }else {
-        winner.innerHTML = ('Player 2 ha vinto !');
-
+        winner.innerHTML = ('Player 2 ha vinto !');        
 
     }
 
